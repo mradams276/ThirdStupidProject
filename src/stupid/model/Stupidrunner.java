@@ -1,5 +1,11 @@
 package stupid.model;
 
-public class Stupidrunner {
+import stupid.controller.StupidController;
 
-}
+public class Stupidrunner {
+	public static void main (String [] args){
+
+		{
+			StupidController firstAppController = new StupidController(); firstAppController.start();
+		}}}
+
