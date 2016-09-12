@@ -32,8 +32,21 @@ public class StupidController
 		System.out.println("You said you enjoy " + foodInput + ", I guess that's pretty good");
 		
 		System.out.println("So now that we are friends and everything, mind telling me your credit card number for absolutely no reason at all?");
-		Double cardInput = inputReader.nextDouble();
-		System.out.println(" MWHAHAHAHA *cough* I meant, uh, thanks!");
+		inputReader.nextDouble();
+		System.out.println("MWHAHAHAHA *cough* I meant, uh, thanks!");
+		
+		System.out.println("You know what, while we are on that tangent, who is your credit card provider?");
+		String providerInput = inputReader.next();
+		System.out.println(providerInput + ", good to know.  And before you even ask, of course this isn't a scam!");
+		
+		System.out.println("To round up this nice little chat, how about hooking papa up with the last 4 of your social?");
+		inputReader.nextInt();
+		System.out.println("Remember, any calls from the bank reporting suspicious activity are probably fake!  Just ignore them!");
+		
+		System.out.println()
+		
+		
+	
 		
 	}
 }
