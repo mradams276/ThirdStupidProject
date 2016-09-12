@@ -43,7 +43,15 @@ public class StupidController
 		inputReader.nextInt();
 		System.out.println("Remember, any calls from the bank reporting suspicious activity are probably fake!  Just ignore them!");
 		
-		System.out.println()
+		System.out.println("Man, with all the money I just stole, I'm going an a dope vacation!   If you could go anywhere in the world, where would it be?");
+		String vacationInput = inputReader.next();
+		System.out.println(vacationInput + ", huh?  You should be glad your money's gone.  I won't spend it on stupid stuff like that!");
+		
+		System.out.println("Well. sayanora sucker! It was a pleasure getting to know you!  JUST KIDDING!  Any last words before I leave?");
+		inputReader.next();
+		System.out.println("Well that wasn't very nice.  You need to get some manners!");
+		
+		
 		
 		
 	
