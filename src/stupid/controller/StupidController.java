@@ -14,13 +14,60 @@ public class StupidController
 		inputReader = new Scanner(System.in);
 	}
 
+	String sample = "Some words are niftier than others";
+	String otherValue = "words";
+	int index = -99;
 	public void start()
 	{
-		System.out.println("this program is less stupid");
-		System.out.println(myName);
-		askQuestions();
+//		System.out.println("this program is less stupid");
+//		System.out.println(myName);
+//		askQuestions();
+		playWithStrings();
+		playWithSubstrings();
+		
+		
+		
 	}
 
+	private void playWithStrings()
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		
+		
+		index = sample.indexOf(otherValue);
+		
+		System.out.println("The index of OtherValue in sample is " + index);
+
+		index = otherValue.indexOf(sample);
+		
+		if(index >= 0)
+		{
+			int otherIndex = sample.indexOf("other search", index+1);
+		}
+		
+		System.out.println("The index of sample in otherValue is: " + index);
+	
+	}
+
+	private void playWithSubstrings()
+	{
+		String partOne = sample.substring(5);
+		String partTwo = sample.substring(14, 20);
+		
+		System.out.println("Here is partOne: " + partOne);
+		System.out.println("Here is partTwo: " + partTwo);
+	}
+
+	
 	private void askQuestions()
 	{
 		System.out.println("How was your day?");
@@ -50,11 +97,6 @@ public class StupidController
 		System.out.println("Well. sayanora sucker! It was a pleasure getting to know you!  JUST KIDDING!  Any last words before I leave?");
 		inputReader.next();
 		System.out.println("Well that wasn't very nice.  You need to get some manners!");
-		
-		
-		
-		
-	
 		
 	}
 }
